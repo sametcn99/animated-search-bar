@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Animated Search Bars",
-  description: "https://github.com/sametcn99",
+  description: "https://sametcc.me/animated-search-bar",
 };
 
 export default function RootLayout({
@@ -20,8 +20,8 @@ export default function RootLayout({
         <main className="bg-black h-screen flex justify-center items-center flex-col gap-2">
           {children}
           <footer className="text-white text-center hover:underline">
-            <a href="https://github.com/sametcn99" target="_blank">
-              github.com/sametcn99
+            <a href="https://sametcc.me/animated-search-bar" target="_blank">
+              check out the source code
             </a>
           </footer>
         </main>
